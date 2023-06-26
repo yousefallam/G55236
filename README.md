@@ -7,8 +7,9 @@
    
 `Total is 100`
 That is so funny! :joy:
+amged tarik software engineer
+   student in future uni
 
 1. Amr Hassan mohamed
 
 Beshoy Mcdonald's
-
