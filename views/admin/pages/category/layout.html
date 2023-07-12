@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="layout.css" type="text/css">
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            const mainBody = document.querySelector('.mainbody');
+            sidebar.classList.toggle('sidebar-hidden');
+            mainBody.classList.toggle('fullscreen');
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="button">
+                <button onclick="toggleSidebar()">Toggle Sidebar</button>
+                <button>Reload</button>
+                <button>Logout</button>
+                <button>Your Shop</button>
+            </div>
+        </div>
+        <div class="mainbody">
+            <div class="sidebar">
+                <nav>
+                    <ul>
+                        <li><a href="#">📈 Statistics Panel</a></li>
+                        <li>
+                            <a href="#">🏷️ Products</a>
+                            <select>
+                                <option>Products</option>
+                                <option>Sections</option>
+                                <option>Ratings</option>
+                                <option>Cross Selling</option>
+                                <option>Coupons</option>
+                            </select>
+                        </li>
+                        <li><a href="#">🛒 Orders</a></li>
+                        <li><a href="#">🛒🔔 Order Notifications</a></li>
+                        <li><a href="#">💰 Wallet</a></li>
+                        <li><a href="#">🤑 Balance</a></li>
+                        <li><a href="#">💸 Transactions</a></li>
+                        <li><a href="#">🏆 Win with Us</a></li>
+                        <li><a href="#">📢 Notices</a></li>
+                        <li><a href="#">📚 Extras</a></li>
+                        <li>
+                            <a href="#">🔗 Link to Other Platforms</a>
+                            <select>
+                                <option>Connectivity with iCombo</option>
+                                <option>Linking with Marketer</option>
+                                <option>Integration with Google Sheet</option>
+                                <option>Fastening with Crown</option>
+                                <option>Rabb with his Turkish Platform</option>
+                            </select>
+                        </li>
+                        <li>
+                            <a href="#">⚙️ Settings</a>
+                            <select>
+                                <option>Store Settings</option>
+                                <option>Themes</option>
+                                <option>Add a Header Code</option>
+                                <option>Modify the Home Page</option>
+                                <option>Pixels Settings</option>
+                                <option>Purchase Form</option>
+                                <option>Shipping Areas</option>
+                                <option>Edit Thank You Page</option>
+                                <option>Social Links</option>
+                                <option>Your Store Link</option>
+                            </select>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="body container">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th> Image</th>
+                        <th>Category Name</th>
+                        <th>Description</th>
+                        
+                    </tr>
+                    <tr>
+                        <td class="checkbox-cell"><input type="checkbox"></td>
+                        <td class="image-cell"><img src="../Desktop/watch.jpg" alt="Image 1"></td>
+                        <td>Watches</td>
+                        <td>Description 1</td>
+                    </tr>
+                    <tr>
+                        <td class="checkbox-cell"><input type="checkbox"></td>
+                        <td class="image-cell"><img src="image2.jpg" alt="Image 2"></td>
+                        <td>Category 2</td>
+                        <td>Description 2</td>
+                        
+                    </tr>
+                    <tr>
+                        <td class="checkbox-cell"><input type="checkbox"></td>
+                        <td class="image-cell"><img src="image3.jpg" alt="Image 3"></td>
+                        <td>Category 3</td>
+                        <td>Description 3</td>
+                    </tr>
+                    <tr>
+                        <td class="checkbox-cell"><input type="checkbox"></td>
+                        <td class="image-cell"><img src="image4.jpg" alt="Image 4"></td>
+            
+                        <td>Category 4</td>
+                        <td>Description 4</td>
+                    </tr>
+                    <tr>
+                        <td class="checkbox-cell"><input type="checkbox"></td>
+                        <td class="image-cell"><img src="image5.jpg" alt="Image 5"></td>
+            
+                        <td>Category 5</td>
+                        <td>Description 5</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
